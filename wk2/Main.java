@@ -1,5 +1,5 @@
-package 무제.wk2;
-
+package cab302.wk2;
+import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Main {

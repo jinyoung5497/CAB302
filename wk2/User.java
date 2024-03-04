@@ -1,4 +1,4 @@
-package 무제.wk2;
+package cab302.wk2;
 
 public class User {
     private String username;

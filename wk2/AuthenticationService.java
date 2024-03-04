@@ -18,11 +18,19 @@ public class AuthenticationService implements IAuthenticationService{
             }
         }
         User newUser = new User(username, password);
-        users.add(new user)
+        users.add(newUser);
+        return newUser;
     }
 
     @Override
     public User logIn(String username, String password) {
+        Iterator i = users.iterator();
+        while(i.hasNext()){
+            User user = (User) i.next();
+            if(user.getUsername().equals(username) && user.getPassword().equals(password)){
+                return user;
+            }
+        }
         return null;
     }
 }

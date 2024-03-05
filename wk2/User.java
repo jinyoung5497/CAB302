@@ -1,4 +1,4 @@
-package cab302.wk2;
+package wk2;
 
 public class User {
     private String username;

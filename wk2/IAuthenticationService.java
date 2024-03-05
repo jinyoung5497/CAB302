@@ -1,4 +1,4 @@
-package cab302.wk2;
+package wk2;
 
 public interface IAuthenticationService {
     User signUp(String username, String password);

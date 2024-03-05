@@ -1,4 +1,4 @@
-package cab302.wk2;
+package wk2;
 import java.util.ArrayList;
 import java.util.Iterator;
 
